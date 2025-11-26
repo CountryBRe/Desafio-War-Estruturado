@@ -90,7 +90,7 @@ O jogo utiliza cores para melhorar a visualização no terminal:
 
 ---
 
-👨‍🏫 Professor: Sérgio Cardoso
+👨‍🏫 Professor: Daisy Albuquerque
 
 ---
 
