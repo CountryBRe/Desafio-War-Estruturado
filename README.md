@@ -54,3 +54,9 @@ O sistema verifica ao final de cada rodada se alguém concluiu a missão.
 ## ✅ Compilação e Execução
 
 ### Compilar:
+
+
+Abra o terminal na pasta do projeto e execute:
+
+```bash
+gcc -Wall -Wextra -std=c99 War-Estruturado.c -o war
