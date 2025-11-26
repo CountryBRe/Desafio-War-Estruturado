@@ -78,7 +78,10 @@ O jogo utiliza cores para melhorar a visualização no terminal:
 
 ---
 
-## 📁 Arquivo do Projeto
+👨‍💻 Autor: Rodrigo Gomes
+📘 Disciplina: Introdução à Programação de Computadores
+🏫 Faculdade: Estácio de Sá
+👨‍🏫 Professor: Sérgio Cardoso
 
 ## ⚙️ Compilação e Execução
 
@@ -89,10 +92,4 @@ Execute no terminal dentro da pasta do projeto:
 ```bash
 gcc -Wall -Wextra -std=c99 War-Estruturado.c -o war
 
-👨‍💻 Autor
 
-Rodrigo Gomes
-
-📘 Disciplina: Introdução à Programação de Computadores
-🏫 Faculdade: Estácio de Sá
-👨‍🏫 Professor: Sérgio Cardoso
