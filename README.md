@@ -2,43 +2,46 @@
 
 Este repositório contém a implementação do jogo **WAR** em linguagem C, desenvolvida como atividade prática para o estudo de **estruturas de dados**, **ponteiros**, **alocação dinâmica de memória** e **modularização**.
 
-O projeto simula uma versão simplificada do jogo WAR, com cadastro de territórios, sistema de batalhas e missões estratégicas.
+O projeto simula uma versão simplificada do jogo WAR, permitindo cadastro de territórios, batalhas estratégicas e sistema de missões.
 
 ---
 
 ## 🧩 Organização do Projeto
 
-O sistema foi construído seguindo três níveis de dificuldade:
+O desenvolvimento foi dividido em três níveis de dificuldade:
 
-- **Nível Novato**
-- **Nível Aventureiro**
-- **Nível Mestre**
+### 🔹 Nível Novato
+Cadastro básico dos territórios usando `struct`.
 
-Cada nível representa a evolução do jogo, desde o cadastro básico dos territórios até a implementação completa de missões estratégicas e condição de vitória.
+### 🔹 Nível Aventureiro
+Implementação do sistema de ataque entre territórios com ponteiros e alocação dinâmica.
+
+### 🔹 Nível Mestre
+Sistema de missões estratégicas e condição automática de vitória.
 
 ---
 
 ## ✅ NÍVEL NOVATO — Cadastro de Territórios
 
-Neste nível foi criada a struct `Territorio` para armazenar os dados:
+Foi criada a struct `Territorio` para armazenar:
 
-- Nome do território
-- Cor do exército
-- Quantidade de tropas
+- Nome do território  
+- Cor do exército  
+- Quantidade de tropas  
 
-Os territórios são registrados em um vetor e exibidos na tela após o cadastro.
+Os territórios são armazenados em um vetor e exibidos após o cadastro.
 
 ---
 
 ## ✅ NÍVEL AVENTUREIRO — Sistema de Ataque
 
-Neste nível foi implementado o sistema de batalhas entre territórios.
+Neste nível foi implementado o combate entre territórios.
 
 ### Funcionalidades:
 
 - Uso de ponteiros para manipular os territórios
-- Alocação dinâmica de memória com `malloc` e `calloc`
-- Simulação de ataque utilizando `rand()`
+- Alocação dinâmica com `malloc` e `calloc`
+- Simulação de ataque com `rand()`
 - Atualização automática da cor e das tropas
 
 ### Regra de batalha:
@@ -50,24 +53,24 @@ Neste nível foi implementado o sistema de batalhas entre territórios.
 
 ## ✅ NÍVEL MESTRE — Missões Estratégicas
 
-Foi adicionado o sistema de missões individuais.
+Foi adicionado um sistema de missões individuais por jogador.
 
-Cada jogador recebe uma missão automática no início da partida, como por exemplo:
+Exemplos de missões:
 
-- Dominar territórios
-- Eliminar uma cor específica
-- Conquistar vários territórios
+- Dominar territórios específicos
+- Eliminar uma cor inimiga
+- Conquistar diversos territórios
 
-O sistema verifica ao final de cada rodada se a missão foi concluída e, em caso positivo, declara o vencedor.
+O sistema verifica automaticamente após cada rodada se a missão foi cumprida.
 
 ---
 
-## 🎨 Sistema de Cores ANSI no Terminal
+## 🎨 Sistema de Cores ANSI
 
-O jogo utiliza cores no terminal para facilitar a visualização:
+O jogo utiliza cores para melhorar a visualização no terminal:
 
-| Cor      | Significado        |
-|-----------|------------------|
+| Cor      | Significado         |
+|----------|-------------------|
 | 🟢 Verde  | Vitória / sucesso |
 | 🔴 Vermelho | Derrota / erro   |
 | 🟡 Amarelo | Dados da batalha |
@@ -75,12 +78,21 @@ O jogo utiliza cores no terminal para facilitar a visualização:
 
 ---
 
-## 📁 Arquivo Principal
+## 📁 Arquivo do Projeto
 
-Todo o projeto está implementado em um único arquivo.
+## ⚙️ Compilação e Execução
 
-✅ Compilação e Execução 
+### Compilar
 
-Compilar: Abra o terminal na pasta do projeto e execute:
+Execute no terminal dentro da pasta do projeto:
 
+```bash
 gcc -Wall -Wextra -std=c99 War-Estruturado.c -o war
+
+👨‍💻 Autor
+
+Rodrigo Gomes
+
+📘 Disciplina: Introdução à Programação de Computadores
+🏫 Faculdade: Estácio de Sá
+👨‍🏫 Professor: Sérgio Cardoso
