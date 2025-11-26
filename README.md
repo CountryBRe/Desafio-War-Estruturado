@@ -79,9 +79,20 @@ O jogo utiliza cores para melhorar a visualização no terminal:
 ---
 
 👨‍💻 Autor: Rodrigo Gomes
+
+---
+
 📘 Disciplina: Introdução à Programação de Computadores
+
+---
+
 🏫 Faculdade: Estácio de Sá
+
+---
+
 👨‍🏫 Professor: Sérgio Cardoso
+
+---
 
 ## ⚙️ Compilação e Execução
 
