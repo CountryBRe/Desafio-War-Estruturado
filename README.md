@@ -82,7 +82,7 @@ O jogo utiliza cores para melhorar a visualização no terminal:
 
 ---
 
-📘 Disciplina: Introdução à Programação de Computadores
+📘 Disciplina: Estruturas de Dados: Conceitos e Representação
 
 ---
 
