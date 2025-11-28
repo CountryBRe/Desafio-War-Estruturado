@@ -82,7 +82,7 @@ O jogo utiliza cores para melhorar a visualização no terminal:
 
 ---
 
-📘 Disciplina: Estruturas de Dados: Conceitos e Representação
+📘 Disciplina: Estruturas de Dados - Conceitos e Representação
 
 ---
 
